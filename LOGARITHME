@@ -1,0 +1,22 @@
+LOGARITHME  -  11.03.2026
+
+******************************************
+
+******************************************
+
+1   FONCTIONS_UTILISEES
+2   VARIABLES
+3     x EST_DU_TYPE NOMBRE
+4     y EST_DU_TYPE NOMBRE
+5   DEBUT_ALGORITHME
+6     LIRE x
+7     SI (x<=0 ) ALORS
+8       DEBUT_SI
+9       AFFICHER "il n'existe pas"
+10      FIN_SI
+11      SINON
+12        DEBUT_SINON
+13        x PREND_LA_VALEUR log(x)
+14        AFFICHER y
+15        FIN_SINON
+16  FIN_ALGORITHME
